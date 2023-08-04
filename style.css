@@ -14,7 +14,7 @@ div#contenu{
     width: 100%;
     height: 60vh;
     background-color: orange;
-    text-align: justify;
+    padding-left: 16%;
     clear: none;
 }
 div#piedpage{
@@ -22,6 +22,12 @@ div#piedpage{
     height: 20vh;
     background-color: lightgreen;
     text-align: center;
+}
+
+p{
+    text-align: justify;
+    
+    margin-right: 20%;
 }
 /* Ajout du menu à gauche avec la modification du width à 15% et du height à 60vh*/
 div#menu{
@@ -46,8 +52,10 @@ div#menu_bas{
 }
 /* Ajout du bloc à gauche */
 div#bloc{
+    text-align: center;
     float: right;
     width: 30%;
     height: 60%;
     background-color: red;
+    margin-left: 20px;
 }
